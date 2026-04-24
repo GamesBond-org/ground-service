@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: ground-service
-        image: gamesbond-ground-service:v1.0.0
+        image: maheshnandi/gamesbond-ground-service:v1.0.0
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 4005
