@@ -25,7 +25,7 @@ spec:
         - containerPort: 4005
         envFrom:
         - configMapRef:
-            name: ground-service-config
+            name: ground-service-devconfig
         - secretRef:
             name: ground-service-secret
         resources:
